@@ -1,0 +1,11 @@
+framework module MilanEmailValidator {
+  umbrella header "MilanEmailValidator.h"
+
+  export *
+  module * { export * }
+}
+
+module MilanEmailValidator.Swift {
+  header "MilanEmailValidator-Swift.h"
+  requires objc
+}
